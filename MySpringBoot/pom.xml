@@ -22,6 +22,7 @@
         <module>EurekaServer</module>
         <module>EurekaServiceOne</module>
         <module>EurekaServiceTwo</module>
+        <module>ApiGateway</module>
     </modules>
 
     <properties>
