@@ -21,6 +21,7 @@
         <module>Transactional</module>
         <module>EurekaServer</module>
         <module>EurekaServiceOne</module>
+        <module>EurekaServiceTwo</module>
     </modules>
 
     <properties>
