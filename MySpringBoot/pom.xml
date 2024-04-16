@@ -20,6 +20,7 @@
         <module>SimpleApp</module>
         <module>Transactional</module>
         <module>EurekaServer</module>
+        <module>EurekaServiceOne</module>
     </modules>
 
     <properties>
