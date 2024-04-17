@@ -27,7 +27,7 @@ public class BookController {
     }
 
     @PostMapping
-    public ResponseEntity<List<Book>> getBookById(@RequestBody List<Book> books) {
+    public ResponseEntity<List<Book>> saveBooks(@RequestBody List<Book> books) {
         return new ResponseEntity<>(bookService.saveBooks(books), HttpStatus.CREATED);
     }
 }
