@@ -23,6 +23,7 @@
         <module>EurekaServiceOne</module>
         <module>EurekaServiceTwo</module>
         <module>ApiGateway</module>
+        <module>BookClientService</module>
     </modules>
 
     <properties>
