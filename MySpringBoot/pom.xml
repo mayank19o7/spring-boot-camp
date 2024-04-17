@@ -24,6 +24,7 @@
         <module>EurekaServiceTwo</module>
         <module>ApiGateway</module>
         <module>BookClientService</module>
+        <module>BookRestClient</module>
     </modules>
 
     <properties>

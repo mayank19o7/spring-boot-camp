@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Book D",
+    "price": 229.99,
+    "publishedDate": "2023-08-31"
+  },
+  {
+    "name": "Book E",
+    "price": 119.99,
+    "publishedDate": "2023-07-31"
+  }
+]
