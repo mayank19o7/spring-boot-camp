@@ -1,0 +1,178 @@
+{
+	"info": {
+		"_postman_id": "01dbf9c4-252b-4338-b885-df7b28107c09",
+		"name": "Spring-boot",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28755261"
+	},
+	"item": [
+		{
+			"name": "Get Books",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/books",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Books using RestClient",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/api/books",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Book by Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/books/22",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"books",
+						"22"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save Books",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n\t\t\t\"name\": \"Book A\",\r\n\t\t\t\"price\": 9.99,\r\n\t\t\t\"publishedDate\": \"2023-08-31\"\r\n\t},\r\n\t{\r\n\t\t\t\"name\": \"Book B\",\r\n\t\t\t\"price\": 19.99,\r\n\t\t\t\"publishedDate\": \"2023-07-31\"\r\n\t},\r\n\t{\r\n\t\t\t\"name\": \"Book C\",\r\n\t\t\t\"price\": 29.99,\r\n\t\t\t\"publishedDate\": \"2023-06-10\"\r\n\t},\r\n\t{\r\n\t\t\t\"name\": \"Book D\",\r\n\t\t\t\"price\": 39.99,\r\n\t\t\t\"publishedDate\": \"2023-05-05\"\r\n\t}\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/books",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save Books using RestClient",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n\t\t\t\"name\": \"Book F\",\r\n\t\t\t\"price\": 23.99,\r\n\t\t\t\"publishedDate\": \"2023-08-31\"\r\n\t},\r\n\t{\r\n\t\t\t\"name\": \"Book G\",\r\n\t\t\t\"price\": 1219.99,\r\n\t\t\t\"publishedDate\": \"2023-07-31\"\r\n\t}\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/api/books",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"api",
+						"books"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Employees",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/employees/all",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"employees",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Employee by Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/employees/2",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"employees",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Save Employees",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Employee A\",\r\n    \"age\": 28,\r\n    \"department\": \"department D\",\r\n    \"departmentCode\":\"D\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseURL}}/employees",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"employees"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
