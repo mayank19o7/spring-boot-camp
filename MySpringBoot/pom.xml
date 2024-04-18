@@ -28,6 +28,7 @@
         <module>BookRestClient</module>
         <module>DepartmentService</module>
         <module>EmployeeService</module>
+        <module>HystrixServer</module>
     </modules>
 
     <properties>
