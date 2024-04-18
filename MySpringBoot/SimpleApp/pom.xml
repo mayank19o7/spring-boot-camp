@@ -10,14 +10,8 @@
     </parent>
 
     <artifactId>SimpleApp</artifactId>
-    <name>Spring Boot Data JPA Sample</name>
-    <description>Spring Boot Data JPA Sample</description>
-
-    <properties>
-        <main.basedir>${basedir}/../..</main.basedir>
-        <lombok.version>1.18.32</lombok.version>
-        <postgres.version>42.7.3</postgres.version>
-    </properties>
+    <name>Simple Boot Data JPA Sample</name>
+    <description>Simple Boot Data JPA Sample</description>
 
     <dependencies>
         <dependency>
@@ -25,30 +19,9 @@
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <scope>runtime</scope>
-            <optional>true</optional>
-        </dependency>
-        <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <version>${postgres.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>${lombok.version}</version>
-            <scope>provided</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 </project>

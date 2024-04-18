@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("hello")
+@RequestMapping("ServiceOne")
 public class HelloController {
 
-    @GetMapping
+    @GetMapping("hello")
     public String sayHello() {
         return "<h2><i>Service <font color=\"red\">One</font></i></h2>";
     }
