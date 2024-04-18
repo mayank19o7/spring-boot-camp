@@ -26,6 +26,8 @@
         <module>ConfigServer</module>
         <module>BookClientService</module>
         <module>BookRestClient</module>
+        <module>DepartmentService</module>
+        <module>EmployeeService</module>
     </modules>
 
     <properties>
