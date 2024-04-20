@@ -29,6 +29,8 @@
         <module>DepartmentService</module>
         <module>EmployeeService</module>
         <module>HystrixServer</module>
+        <module>UserResilienceService</module>
+        <module>OrderService</module>
     </modules>
 
     <properties>
