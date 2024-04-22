@@ -32,6 +32,7 @@
         <module>UserResilienceService</module>
         <module>OrderService</module>
         <module>Security</module>
+        <module>SimpleJavaDocker</module>
     </modules>
 
     <properties>
