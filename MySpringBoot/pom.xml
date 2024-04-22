@@ -33,6 +33,7 @@
         <module>OrderService</module>
         <module>Security</module>
         <module>SimpleJavaDocker</module>
+        <module>SpringRestDocker</module>
     </modules>
 
     <properties>
