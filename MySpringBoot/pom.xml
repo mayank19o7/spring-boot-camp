@@ -34,6 +34,7 @@
         <module>Security</module>
         <module>SimpleJavaDocker</module>
         <module>SpringRestDocker</module>
+        <module>ZipkinServer</module>
     </modules>
 
     <properties>
