@@ -16,26 +16,26 @@ This Spring Boot application provides some of the CRUD (Create, Read, Update, De
 - **POST /books**: Saves new Books. The request body should be in JSON format, for example, refer to `sample.json` in
   the `resources` folder.
 
-## Technologies Used
-
-- Java
-- Spring Boot Starter
-- Spring Boot Data JPA
-- Spring Boot Web
-- Postgres
-
 ## How to Run
+
+To run this project locally, you need to have **Java** and **Maven** installed on your machine. You also need to have a
+**PostgreSQL** database set up.
 
 1. Clone the repository
 2. Navigate to the project directory
-3. Run `mvn spring-boot:run` to start the application
-4. Access the application at `http://localhost:9000` ( `server.port=9000` mentioned in `application.properties`)
+3. Update the database configuration in `application.properties` file:
+4. Run `mvn spring-boot:run` to start the application
+5. Access the application at `http://localhost:9000` ( port as mentioned in `application.properties`
+   using `server.port` property )
 
-## Configuration
+## Dependencies
 
-- Database configuration can be found in `application.properties`
-- Modify the configuration to switch to a different database or configure other settings
+- Spring Boot
+- Spring Boot Web
+- Spring Boot Data JPA
+- PostgreSQL JDBC Driver
 
-## Contact
+## Author
 
-For any questions or feedback, please contact [me].
+- Mayank Sahu (https://github.com/mayank19o7).
+
