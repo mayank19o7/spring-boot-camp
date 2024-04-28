@@ -13,8 +13,8 @@ This Spring Boot application provides some of the CRUD (Create, Read, Update, De
 - **GET /books/{id}**: Retrieves a Book by its ID. If no Book is found, a custom RunTime Exception is handled and a
   meaningful error message is returned.
 - **GET /books**: Retrieves all Books.
-- **POST /books**: Saves new Books. The request body should be in JSON format, for example, refer to `sample.json` in
-  the `resources` folder.
+- **POST /books**: Saves new Books. The request body should be in JSON format, for example, refer
+  to [sample.json](./src/main/resources/sample.json).
 
 ## How to Run
 
