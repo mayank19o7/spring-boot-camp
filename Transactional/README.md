@@ -1,4 +1,4 @@
-# Transactional - Spring Boot Application.
+# 2. Transactional - Spring Boot Application.
 
 This application shows the behaviour of @Transactional annotation.
 _Either the entire transaction must commit or roll back (if anything breaks in between)._
