@@ -33,8 +33,8 @@ It is designed to be discoverable and configurable using Spring Cloud.
 - **GET /books/{id}**: Retrieves a Book by its ID. If no Book is found, a custom RunTime Exception is handled and a
   meaningful error message is returned.
 - **GET /books**: Retrieves all Books.
-- **POST /books**: Saves new Books. The request body should be in JSON format, for example, refer to `sample.json` in
-  the `resources` folder.
+- **POST /books**: Saves new Books. The request body should be in JSON format, for example, refer
+  to [sample.json](./src/main/resources/sample.json)
 
 ## How to Run
 
@@ -45,7 +45,8 @@ To run this project locally, you need to have **Java** and **Maven** installed o
 2. Navigate to the project directory
 3. Update the client configuration like `server.port` and `eureka.client.serviceUrl.defaultZone`
    in `application.properties` file.
-4. Make sure the [Eureka Server](../EurekaServer/README.md) and [Config Server](../ConfigServer/README.md) is up and Running.
+4. Make sure the [Eureka Server](../EurekaServer/README.md) and [Config Server](../ConfigServer/README.md) is up and
+   Running.
 5. Run `mvn spring-boot:run` to start the application
 6. See if the Service is discoverable at the Eureka Server by accessing [http://localhost:9000](http://localhost:9000).
 7. Access the resource of this service at [http://localhost:9002/books](http://localhost:9002/books) ( `9002` port as
