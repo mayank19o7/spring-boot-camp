@@ -9,6 +9,9 @@ import org.springframework.web.client.RestTemplate;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * Controller class for managing books.
+ */
 @RestController
 @RequestMapping("api/books")
 public class BookController {
@@ -18,6 +21,11 @@ public class BookController {
     @Autowired
     RestTemplate restTemplate;
 
+    /**
+     * Retrieves a list of books from the API.
+     *
+     * @return ResponseEntity containing the list of books.
+     */
     @GetMapping
     public ResponseEntity<List<Book>> getBooks() {
         // Make a request to your API to get the list of objects
@@ -26,6 +34,12 @@ public class BookController {
         return ResponseEntity.ok(objectsList);
     }
 
+    /**
+     * Saves a list of books to the API.
+     *
+     * @param books The list of books to save.
+     * @return ResponseEntity containing the saved list of books.
+     */
     @PostMapping
     public ResponseEntity<List<Book>> saveBooks(@RequestBody List<Book> books) {
         // Make a POST request to another API

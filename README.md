@@ -14,3 +14,6 @@ Boot with Java. The project is divided into multiple applications using modules,
    they are discoverable or not.
 4. [API Gateway](./ApiGateway/README.md) - This application acts as a gateway for multiple services, and also
    discoverable by Eureka server. Uses the **Server** and **Services** from above Eureka application.
+5. [Config Server](./ConfigServer/README.md) - Using Config Server to fetch DB Configurations from GitHub Repository in
+   the application [Book Service](./BookClientService/README.md) which is consumed
+   by [Book Rest Client](./BookRestClient/README.md).
