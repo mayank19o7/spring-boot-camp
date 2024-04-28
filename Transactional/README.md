@@ -14,7 +14,7 @@ _Either the entire transaction must commit or roll back (if anything breaks in b
 - **GET /employees/all**: Retrieves a list of all employees.
 - **GET /employees/{empId}**: Retrieves an employee by ID.
 - **POST /employees**: Creates a new employee. The request body should be in JSON format, for example, refer
-  to `sample.json` in the `resources` folder.
+  to [sample.json](./src/main/resources/sample.json)
 
 ## How to Run
 
