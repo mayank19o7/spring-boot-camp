@@ -5,7 +5,7 @@
     <parent>
         <!-- Your own application should inherit from spring-boot-starter-parent -->
         <groupId>com.mak</groupId>
-        <artifactId>MySpringBoot</artifactId>
+        <artifactId>spring-boot-camp</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 

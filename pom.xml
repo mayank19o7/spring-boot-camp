@@ -12,7 +12,7 @@
     </parent>
 
     <groupId>com.mak</groupId>
-    <artifactId>MySpringBoot</artifactId>
+    <artifactId>spring-boot-camp</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
