@@ -11,6 +11,9 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * Service class for managing employee data.
+ */
 @Service
 public class EmployeeService {
 
@@ -20,14 +23,31 @@ public class EmployeeService {
     @Autowired
     DepartmentRepository departmentRepository;
 
+    /**
+     * Retrieves all employees.
+     *
+     * @return List of all employees.
+     */
     public List<Employee> getEmployees() {
         return employeeRepository.findAll();
     }
 
+    /**
+     * Retrieves an employee by ID.
+     *
+     * @param id The ID of the employee to retrieve.
+     * @return Optional containing the employee if found, empty otherwise.
+     */
     public Optional<Employee> getEmployeeById(long id) {
         return employeeRepository.findById(id);
     }
 
+    /**
+     * Saves a new employee.
+     *
+     * @param employee The employee to save.
+     * @return The saved employee.
+     */
     @Transactional
     public Employee saveEmployee(Employee employee) {
         Department department = new Department();

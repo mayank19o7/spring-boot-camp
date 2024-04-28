@@ -7,3 +7,5 @@ Boot with Java. The project is divided into multiple applications using modules,
 
 1. [Simple App](./SimpleApp/README.md) - This module contains a simple Spring Boot application demonstrating basic CRUD
    operations for a Book entity.
+2. [Transactional](./Transactional/README.md) - This module contains a simple application demonstrating the behaviour of
+   @Transactional annotation.
