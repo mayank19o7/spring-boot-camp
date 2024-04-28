@@ -1,4 +1,5 @@
-# Eureka Server
+# 3. Eureka Service Discovery using Eureka Server and 2 microservices : Service One and Service Two.
+## Eureka Server
 
 This project is a Eureka Server implementation using Spring Boot.
 Eureka Server is a service registry used in microservices architecture for service discovery and registration.
@@ -21,7 +22,7 @@ To run this project locally, you need to have **Java** and **Maven** installed o
 2. Navigate to the project directory
 3. Update the registry configuration like `instance.hostname` in `application.properties` file.
 4. Run `mvn spring-boot:run` to start the application
-5. Access the application at `http://localhost:9000` ( port as mentioned in `application.properties`
+5. Access the application at [http://localhost:9000](http://localhost:9000) ( port as mentioned in `application.properties`
    using `server.port` property )
 
 ## Dependencies

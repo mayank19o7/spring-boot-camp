@@ -1,4 +1,5 @@
-# Eureka Service One
+# 3. Eureka Service Discovery using Eureka Server and 2 microservices : Service One and Service Two.
+## Eureka Service One
 
 This application is a Eureka Client / Spring Boot microservice that serves as part of a larger application.
 It is designed to be discoverable and configurable using Spring Cloud.
@@ -27,8 +28,8 @@ To run this project locally, you need to have **Java** and **Maven** installed o
 3. Update the client configuration like `server.port` and `eureka.client.serviceUrl.defaultZone`
    in `application.properties` file.
 4. Run `mvn spring-boot:run` to start the application
-5. See if the Service is discoverable at the Eureka Server by accessing `http://localhost:9000`.
-6. Access the resource of this service at `http://localhost:9002/ServiceOne` ( `9002` port as mentioned
+5. See if the Service is discoverable at the Eureka Server by accessing [http://localhost:9000](http://localhost:9000).
+6. Access the resource of this service at [http://localhost:9002/ServiceOne/hello](http://localhost:9002/ServiceOne/hello) ( `9002` port as mentioned
    in `application.properties` )
 
 ## Dependencies
