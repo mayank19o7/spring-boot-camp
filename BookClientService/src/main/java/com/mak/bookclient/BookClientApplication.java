@@ -13,7 +13,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @EnableDiscoveryClient
 public class BookClientApplication {
     /**
-     * The {@code main} method to start the ServiceTwo application.
+     * The {@code main} method to start the Spring Boot application.
      *
      * @param args Command-line arguments
      */
