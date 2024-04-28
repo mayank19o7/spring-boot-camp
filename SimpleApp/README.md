@@ -1,4 +1,4 @@
-# Simple Spring Boot Application to show basic CRUD Operation for a Book Entity.
+# 1. Simple Spring Boot Application with JPA to show basic CRUD Operation for a Book Entity.
 
 This Spring Boot application provides some of the CRUD (Create, Read, Update, Delete) operations for a Book entity.
 
