@@ -9,3 +9,6 @@ Boot with Java. The project is divided into multiple applications using modules,
    operations for a Book entity.
 2. [Transactional](./Transactional/README.md) - This module contains a simple application demonstrating the behaviour of
    @Transactional annotation.
+3. [Eureka Service Discovery](./EurekaServer/README.md) - This application demonstrates the use of Eureka
+   Server, [Service One](./EurekaServiceOne/README.md) and [Service Two](./EurekaServiceTwo/README.md) are used
+   with this to see their service discovery.
