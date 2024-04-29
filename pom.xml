@@ -29,8 +29,8 @@
         <module>DepartmentService</module>
         <module>EmployeeService</module>
         <module>HystrixServer</module>
-        <module>UserResilienceService</module>
         <module>OrderService</module>
+        <module>UserResilienceService</module>
         <module>Security</module>
         <module>SimpleJavaDocker</module>
         <module>SpringRestDocker</module>
