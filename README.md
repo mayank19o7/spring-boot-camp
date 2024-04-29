@@ -19,3 +19,5 @@ Boot with Java. The project is divided into multiple applications using modules,
    by [Book Rest Client](./BookRestClient/README.md).
 6. [Department Service](./DepartmentService/README.md) consumes [Employee Service](./EmployeeService/README.md) using
    **RestTemplate**, fetches the Department by ID with all the employees belonging to that department.
+7. [Hystrix Server](./HystrixServer/README.md) - This application demonstrates hystrix which provides a fault tolerance
+   mechanism for services, handles HTTP requests and implements fallback methods.
