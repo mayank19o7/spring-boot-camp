@@ -17,3 +17,5 @@ Boot with Java. The project is divided into multiple applications using modules,
 5. [Config Server](./ConfigServer/README.md) - Using Config Server to fetch DB Configurations from GitHub Repository in
    the application [Book Service](./BookClientService/README.md) which is consumed
    by [Book Rest Client](./BookRestClient/README.md).
+6. [Department Service](./DepartmentService/README.md) consumes [Employee Service](./EmployeeService/README.md) using
+   **RestTemplate**, fetches the Department by ID with all the employees belonging to that department.
