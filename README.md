@@ -22,4 +22,4 @@ Boot with Java. The project is divided into multiple applications using modules,
 7. [Hystrix Server](./HystrixServer/README.md) - This application demonstrates hystrix which provides a fault tolerance
    mechanism for services, handles HTTP requests and implements fallback methods.
 8. [Resilience4j](./UserResilienceService/README.md) - This application demonstrates how to use Resilience4j for
-   resilience and fault tolerance in microservices architecture.
+   resilience and fault tolerance in microservices architecture. Uses [Order Service Application](./OrderService/README.md).
