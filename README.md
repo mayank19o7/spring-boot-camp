@@ -22,5 +22,9 @@ Boot with Java. The project is divided into multiple applications using modules,
 7. [Hystrix Server](./HystrixServer/README.md) - This application demonstrates hystrix which provides a fault tolerance
    mechanism for services, handles HTTP requests and implements fallback methods.
 8. [Resilience4j](./UserResilienceService/README.md) - This application demonstrates how to use Resilience4j for
-   resilience and fault tolerance in microservices architecture. Uses [Order Service Application](./OrderService/README.md).
-9. [Security](./Security/README.md) - This is a simple Spring Boot application demonstrating security using Spring Security.
+   resilience and fault tolerance in microservices architecture.
+   Uses [Order Service Application](./OrderService/README.md).
+9. [Security](./Security/README.md) - This is a simple Spring Boot application demonstrating security using Spring
+   Security.
+10. [Zipkin Server](./ZipkinServer/README.md) - This application demonstrates a Zipkin Server implementation to enable
+    distributed tracing.

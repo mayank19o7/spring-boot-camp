@@ -32,9 +32,9 @@
         <module>OrderService</module>
         <module>UserResilienceService</module>
         <module>Security</module>
+        <module>ZipkinServer</module>
         <module>SimpleJavaDocker</module>
         <module>SpringRestDocker</module>
-        <module>ZipkinServer</module>
     </modules>
 
     <properties>
