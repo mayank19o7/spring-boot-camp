@@ -28,3 +28,5 @@ Boot with Java. The project is divided into multiple applications using modules,
    Security.
 10. [Zipkin Server](./ZipkinServer/README.md) - This application demonstrates a Zipkin Server implementation to enable
     distributed tracing.
+11. [Zuul Proxy Gateway](./ZuulProxyGateway/README.md) - This application demonstrates dynamic routing and filtering
+    through Zuul proxy server.

@@ -33,6 +33,7 @@
         <module>UserResilienceService</module>
         <module>Security</module>
         <module>ZipkinServer</module>
+        <module>ZuulProxyGateway</module>
         <module>SimpleJavaDocker</module>
         <module>SpringRestDocker</module>
     </modules>
