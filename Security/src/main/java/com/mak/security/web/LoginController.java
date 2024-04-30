@@ -5,29 +5,47 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * Controller class for handling login-related requests.
+ */
 @RestController
 @RequestMapping("login")
 public class LoginController {
-    //Can be accessed by Ninja
+    /**
+     * Saves an admin, can be accessed by Ninja.
+     *
+     * @return A message indicating that the admin is saved.
+     */
     @PostMapping("/admin")
     public String saveAdmin() {
         return "admin saved";
     }
 
-    //Can be accessed by Ninja
+    /**
+     * Retrieves the admin, can be accessed by Ninja
+     *
+     * @return A message indicating that the admin is sent back.
+     */
     @GetMapping("/admin")
     public String getAdmin() {
         return "admin is sent back";
     }
 
-    //Can be accessed by Ninja
+    /**
+     * Saves a user, can be accessed by Ninja
+     *
+     * @return A message indicating that the user is saved.
+     */
     @PostMapping("/user")
     public String saveUser() {
         return "user saved";
     }
 
-    //Can be accessed by Ninja
-    //Can be accessed by Pheonix
+    /**
+     * Retrieves the user, Can be accessed by Ninja and Pheonix both.
+     *
+     * @return A message indicating that the user is sent back.
+     */
     @GetMapping("/user")
     public String getUser() {
         return "user is sent back";

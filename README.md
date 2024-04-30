@@ -23,3 +23,4 @@ Boot with Java. The project is divided into multiple applications using modules,
    mechanism for services, handles HTTP requests and implements fallback methods.
 8. [Resilience4j](./UserResilienceService/README.md) - This application demonstrates how to use Resilience4j for
    resilience and fault tolerance in microservices architecture. Uses [Order Service Application](./OrderService/README.md).
+9. [Security](./Security/README.md) - This is a simple Spring Boot application demonstrating security using Spring Security.
