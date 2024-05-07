@@ -61,8 +61,25 @@ This document provides a list of commonly used Docker commands for managing cont
     - Syntax :  `docker build -t IMAGE_NAME PATH_TO_DOCKERFILE`
     - Example :
         ```sh
-        docker build -t java-image .
+        docker build -t my-image .
         ```
+- **Push the docker image into the Dockerhub:**
+    1. Tag the local image
+        - Syntax :  `docker tag IMAGE_NAME USERNAME/IMAGE_NAME:TAG`  (TAG is optional)
+        - Example :
+            ```sh
+            docker tag hello-world mayank19o7/my-hello-world:latest
+            ```
+    2. Log in to Docker Hub
+        ```sh
+        docker login
+        ```
+    3. Push the image to Docker Hub
+        - Syntax :  `docker push USERNAME/IMAGE_NAME:TAG`  (TAG is optional)
+        - Example :
+            ```sh
+            docker push mayank19o7/my-hello-world
+            ```
 ## Containers
 
 - **List all running containers:**
