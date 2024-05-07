@@ -20,8 +20,9 @@ To run this project locally, you need to have **Java** and **Maven** installed o
 1. Clone the repository
 2. Navigate to the project directory
 3. To start zipkin server, Run 
-    ```sh 
-    java -jar ./src/main/resources/zipkin-server-3.3.0-exec.jar.
+   ```sh 
+   java -jar ./src/main/resources/zipkin-server-3.3.0-exec.jar.
+   ```
 4. Access the Zipkin Server dashboard at [http://localhost:9411/zipkin](http://localhost:9411/zipkin) to view trace data.
 5. Run `mvn spring-boot:run` to start the application.
 6. Access the resource at [http://localhost:8080/hello](http://localhost:8080/hello).
