@@ -33,4 +33,7 @@ Boot with Java. The project is divided into multiple applications using modules,
 
 ## Docker
 
-You can find all the basic docker commands here [Click me](./Docker%20Commands/README.md).
+You can find all the basic docker commands [here](./Docker%20Commands/README.md).
+
+1. [SimpleJavaDocker](./SimpleJavaDocker/README.md) - This project demonstrates how to use Dockerfile to build and run
+   a Simple Java application in docker container.
